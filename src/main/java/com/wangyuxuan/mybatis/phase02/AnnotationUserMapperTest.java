@@ -29,7 +29,7 @@ public class AnnotationUserMapperTest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         // sqlsessionFactory需要通过sqlsessionFactoryBuilder读取全局配置文件信息之后
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-        sqlSessionFactory.getConfiguration().addMapper(AnnotationUserMapper.class);
+//        sqlSessionFactory.getConfiguration().addMapper(AnnotationUserMapper.class);
     }
 
     @Test

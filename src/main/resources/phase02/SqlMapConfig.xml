@@ -17,5 +17,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	</environments>
 	<mappers>
 		<mapper resource="phase02/UserMapper.xml" />
+		<mapper class="com.wangyuxuan.mybatis.phase02.mapper.AnnotationUserMapper" />
 	</mappers>
 </configuration>
